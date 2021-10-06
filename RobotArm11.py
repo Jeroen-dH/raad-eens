@@ -8,7 +8,6 @@ for a in range(8):
 
 robotArm.grab()
 color = robotArm.scan()
-print(color)
 
 for a in range(9):
     if color == 'white':
